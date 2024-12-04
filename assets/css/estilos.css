@@ -1,0 +1,99 @@
+* {
+    margin: 10px;
+}
+
+body{
+    text-align: center;
+    background-color: #dbe4ff;
+}
+
+img{
+    width: 150px;
+    height: 175px;
+    align-content: center;
+    filter: drop-shadow(
+        0 0 10px rgba(250, 250, 250, 250)
+        )
+}
+textarea{
+    padding: 16px;
+    border-radius: 5px;
+    border: 2px solid #0000;
+    background: 
+        linear-gradient(white, grey) padding-box,
+        linear-gradient(black, grey) border-box;
+}
+
+label{
+    color: black;
+}
+
+button{
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 6px solid #012698;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    background-color: #ebf0ff ;
+    border-color: red;
+}
+
+th {
+    background-color: #9cb3f9;
+    
+    
+}
+
+table td {
+    border: 0.3rem solid lightgray;
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+#lolazo {
+    background-color: white;
+}
+
+tr:hover td {
+    background-color: #66ccff;
+}
+
+.btn1 {
+    background-color: lightblue;
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+.btn2 {
+    background-color: lightblue;
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.btn1 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.btn2 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
